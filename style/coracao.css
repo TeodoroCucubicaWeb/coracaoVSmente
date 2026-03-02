@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(209, 209, 209);
+}
+    header{
+    /* width: 100vw; */
+    /* height: 80px; */
+    position:sticky;
+    top:0;
+    z-index:0;
+    background-image: linear-gradient(to right, rgb(97, 1, 1), rgba(0, 0, 255, 0.5));
+    color: white;
+}
+
+header h1{
+    font-family: 'Sukajan Brush', cursive; 
+    font-size: 1.5em;
+    padding-top: 20px; 
+    text-align: center; 
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.438);
+}
+
+    header p{
+        text-align: center;
+        font-size: 1em;
+    }
+
+    header >p>a{
+        color: bisque;
+    }
+
+div.audio{
+    display: block;
+    display: grid;
+    grid-template-rows: 1fr 10%;
+    grid-template-columns: 1fr 30%;
+}
+
+button{
+    display: inline-block;
+    padding: 2px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    border-radius: 90px;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    margin-right: 5%;
+    font-weight: bolder;
+    background-color: rgba(0, 195, 255, 0.288);
+    color: white;
+}
+
+.sumario{
+    margin-left: -20px;
+}
+
+.sumario > h2{
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.sumario > p{
+    line-height: normal;
+    padding: 0;
+    text-indent: none;
+    color: red;
+    text-align: left;
+}
+
+select{
+ grid-row-start: 1;
+  grid-column-start: 1;
+  background-color: rgb(71, 71, 71);
+  color: white;
+  border:1px solid #1f2937;
+  border-radius:10px;
+  width: 50%;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 20px;
+  padding: 5px;
+  margin-bottom: 8px;
+}
+
+label{
+    grid-row-start: 1;
+  grid-column-start: 1;
+  color: white;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+    section.conteudo{
+    margin: 20px;
+}
+
+    .capa{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+    .capa img{
+        width: 200px;
+    }
+
+    h2{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 7px;
+    color: blue;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.308);
+}
+
+    main p,q{
+    line-height: 23px;
+    letter-spacing: .7px;
+    text-indent: 20px;
+    padding: 10px;
+}
+
+ul li{
+    padding-bottom: 5px;
+    margin-left: 10%;
+    color: blue;
+}
+
+h3{
+    padding-top: 10px;
+}
+
+footer{
+    background-image: linear-gradient(to right, rgb(97, 1, 1), rgba(0, 0, 255, 0.5));
+    color: white;
+    padding: 10px;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+}

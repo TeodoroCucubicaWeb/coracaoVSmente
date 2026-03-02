@@ -1,0 +1,107 @@
+@media screen and (min-width:376px) and (max-width:1024px){
+    header h1{
+        text-align: center;
+        font-size: 2em;
+    }
+    header p{
+        padding: 5px;
+        font-size: 1.5em;
+    }
+    .capa{
+        margin-top: 50px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .capa img{
+        width: 100%;
+    }
+    section.conteudo{
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 200px;
+        margin-right: 200px; */
+    }
+    article{
+        width: 100%;   
+    }
+}
+
+@media screen and (min-width: 1030px) {
+    header h1{
+        font-size: 4em;
+    }
+    header p{
+        font-size: 2em;
+        padding: 5px;
+    }
+    .capa{
+        margin-top: 50px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .capa img{
+        width: 100%;
+    }
+    section.conteudo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    article{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 2.5em;
+    }
+
+    p{
+        font-size: 1.3em;
+        line-height: 80px;
+    }
+
+    li{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 2000px){
+
+    header h1{
+        font-size: 4em;
+    }
+    header p{
+        font-size: 2em;
+        padding: 5px;
+    }
+    .capa{
+        margin-top: 50px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .capa img{
+        width: 100%;
+    }
+    section.conteudo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    article{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 2.5em;
+    }
+
+    p{
+        font-size: 1em;
+    }
+
+    li{
+        font-size: 1.3em;
+    }
+}
