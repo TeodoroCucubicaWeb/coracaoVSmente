@@ -37,7 +37,7 @@ div.audio{
     display: block;
     display: grid;
     grid-template-rows: 1fr 10%;
-    grid-template-columns: 1fr 30%;
+    grid-template-columns: 1fr 10%;
 }
 
 button{
