@@ -129,6 +129,10 @@ h3{
     padding-top: 10px;
 }
 
+input{
+    
+}
+
 footer{
     background-image: linear-gradient(to right, rgb(97, 1, 1), rgba(0, 0, 255, 0.5));
     color: white;
