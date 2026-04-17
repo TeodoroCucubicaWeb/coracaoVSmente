@@ -53,6 +53,7 @@ div.audio{
     background-color: rgba(0, 195, 255, 0.288);
     color: white;
     box-shadow: 1px 0px 2px black;
+    border: none;
 }
 
 .sumario{
@@ -86,14 +87,19 @@ div.audio{
 
     .capa{
     margin-top: 50px;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 10%;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.274);
 }
 
     .capa img{
-        width: 500px;
+        width: 90%;
+    }
+
+    .fraseTeodoro{
+        text-align: center;
+        font-weight: bold; font-style: italic;
     }
 
     h2{
@@ -112,6 +118,13 @@ div.audio{
         padding: 10px;
     }
 
+    .destaqueMente{
+        font-size: 1.3em;
+        color:blue;
+        font-weight: bold;
+        padding: 10px;
+    }
+
     main p,q{
     line-height: 23px;
     letter-spacing: .7px;
@@ -119,10 +132,40 @@ div.audio{
     padding: 10px;
 }
 
+.pontoDestaque{
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+    list-style-type: circle;
+}
+
 ul li{
     padding-bottom: 5px;
     margin-left: 10%;
-    color: blue;
+}
+
+ol li{
+    padding: 5px;
+    margin-left: 5%;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+textarea{
+    padding: 20px;
+    display: inline-block;
+    margin-left: 5%;
+    border-radius: 30px;
+    border: none;
+}
+
+#resposta{
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background:green;
+    font-weight: bolder;
+    border: none;
 }
 
 h3{

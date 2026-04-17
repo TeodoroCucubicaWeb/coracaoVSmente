@@ -41,28 +41,3 @@
                 document.getElementById('container').innerHTML = `<span>${valor}</span>`;
             }
         }
-
-        function substituirTexto(){
-            const input = document.getElementById('meuInput2');
-            const container = document.getElementById('container2');
-            const valor = input.value;
-            // verifica se o usuario digitou algo
-
-            if (valor.trim() !== ""){
-                // substitui o conteudo do container apenas pelo texto
-
-                container.innerHTML = `<span>${valor}</span>`;
-                
-            }
-            else{
-                alert("por favor, digite algo antes de enviar.")
-            }
-            const limiteMinimo = 3;
-            const limiteMaximo = 20;
-            if(valor.length < limiteMinimo){
-                alert("O Texto é muito curto! Digite pelomenos 3 caracteres")
-            }else{
-                document.getElementById('container2').innerHTML = `<span>${valor}</span>`;
-            }
-        }
-    
