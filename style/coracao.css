@@ -151,13 +151,20 @@ ol li{
     font-weight: bolder;
 }
 
-textarea{
+ textarea{
     padding: 20px;
     display: inline-block;
     margin-left: 5%;
     border-radius: 30px;
     border: none;
+    
 }
+
+ #container{
+    color: black;
+    font-weight: normal;
+    border-radius: 20px;
+ }
 
 #resposta{
     padding: 8px;

@@ -27,7 +27,8 @@
             if (valor.trim() !== ""){
                 // substitui o conteudo do container apenas pelo texto
 
-                container.innerHTML = `<span>${valor}</span>`;
+                container.innerHTML = `<p>${valor}</p>`;
+                
                 
             }
             else{
